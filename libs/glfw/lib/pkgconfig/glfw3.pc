@@ -1,0 +1,13 @@
+prefix=E:/sotnyk/SoftServe/task/map_viewer/libs/glfw
+exec_prefix=${prefix}
+includedir=E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/include
+libdir=E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.3.3
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

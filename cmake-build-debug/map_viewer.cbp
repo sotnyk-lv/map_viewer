@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="map_viewer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libs\;CMake Files\libs\glfw\;CMake Files\libs\glfw\glfw\;CMake Files\libs\glfw\glfw\CMake\;CMake Files\libs\glfw\glfw\src\;CMake Files\libs\glfw\glfw\docs\;CMake Files\libs\curlpp\;CMake Files\libs\curlpp\extras\;CMake Files\libs\glad\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_img">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/get_img.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_img"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="get_img/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/get_img.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 get_img/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="map_viewer">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/map_viewer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 map_viewer"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="map_viewer/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/map_viewer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 map_viewer/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 glad"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glad/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/libglad.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 glad/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glad/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add option="-D_UNICODE"/>
+					<Add option="-DUNICODE"/>
+					<Add option="-DWINVER=0x0501"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="docs">
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/docs"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/docs/Makefile&quot;  VERBOSE=1 docs"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/docs/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/docs/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/docs/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp_static">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/libcurlpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 curlpp_static"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp_static/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/libcurlpp.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 curlpp_static/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/libcurlpp.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 curlpp"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="curlpp/fast">
+				<Option output="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/libcurlpp.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/include"/>
+					<Add directory="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/x86_64-w64-mingw32"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include/c++/9.3.0/backward"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../include"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/include-fixed"/>
+					<Add directory="C:/msys64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/9.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 curlpp/fast"/>
+					<CompileFile command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/msys64/mingw64/bin/mingw32-make.exe -f &quot;E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/curlpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/cmake-build-debug/libs/glfw/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/get_img.cpp">
+			<Option target="get_img"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Easy.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Easy.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Exception.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Form.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Info.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Info.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Infos.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Multi.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Option.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Option.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/OptionBase.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Options.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/Types.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/cURLpp.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/CurlHandle.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/CurlHandle.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionContainer.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionContainer.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionContainerType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionSetter.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/OptionSetter.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/curlpp/internal/SList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/EmptyType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/NonCopyable.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/NullType.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/SmartPtr.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/ThreadingFactoryMutex.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/ThreadingFactoryMutex.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/ThreadingSingle.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/ThreadingSingle.inl">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/TypeList.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/TypeTrait.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/include/utilspp/clone_ptr.hpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Easy.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Exception.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Form.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Info.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Multi.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/OptionBase.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/Options.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/cURLpp.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/internal/CurlHandle.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/internal/OptionList.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/internal/OptionSetter.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/src/curlpp/internal/SList.cpp">
+			<Option target="curlpp_static"/>
+			<Option target="curlpp"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/src/glad.c">
+			<Option target="glad"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/wgl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/wgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_joystick.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/win32_window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/main.cpp">
+			<Option target="map_viewer"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/src/TileLoader.cpp">
+			<Option target="get_img"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/src/Window.cpp">
+			<Option target="map_viewer"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\src\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/docs/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\docs\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glfw/glfw/docs/Doxyfile.in">
+			<Option virtualFolder="CMake Files\libs\glfw\glfw\docs\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\curlpp\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/extras/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/extras/curlpp-config.in">
+			<Option virtualFolder="CMake Files\libs\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/curlpp/extras/curlpp.pc.in">
+			<Option virtualFolder="CMake Files\libs\curlpp\extras\"/>
+		</Unit>
+		<Unit filename="E:/sotnyk/SoftServe/task/map_viewer/libs/glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libs\glad\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
