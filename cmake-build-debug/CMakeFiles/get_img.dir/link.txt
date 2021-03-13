@@ -1,3 +1,0 @@
-C:\msys64\mingw64\bin\cmake.exe -E rm -f CMakeFiles\get_img.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\get_img.dir/objects.a @CMakeFiles\get_img.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\get_img.dir/objects.a -Wl,--no-whole-archive  -o get_img.exe -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\get_img.dir\linklibs.rsp

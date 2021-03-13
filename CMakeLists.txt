@@ -8,7 +8,7 @@ include_directories(include)
 add_executable(${CMAKE_PROJECT_NAME}
         main.cpp
         src/Window.cpp
-#        src/TileLoader.cpp
+        src/TileLoader.cpp
         )
 
 add_subdirectory(libs/glad)
@@ -28,19 +28,19 @@ add_subdirectory(libs/glfw/glfw)
 include_directories(${glfw_INCLUDE_DIR})
 target_link_libraries(${CMAKE_PROJECT_NAME} glfw)
 
-#add_subdirectory(libs/curlpp)
-#include_directories(${curlpp_INCLUDE_DIR})
-#include_directories(libs/curlpp/include)
-#target_link_libraries(${CMAKE_PROJECT_NAME} curlpp)
-
-include_directories(include)
-
-add_executable(get_img
-        get_img.cpp
-        src/TileLoader.cpp
-        )
-
 add_subdirectory(libs/curlpp)
 include_directories(${curlpp_INCLUDE_DIR})
 include_directories(libs/curlpp/include)
-target_link_libraries(get_img curlpp)
+target_link_libraries(${CMAKE_PROJECT_NAME} curlpp)
+
+#include_directories(include)
+#
+#add_executable(get_img
+#        get_img.cpp
+#        src/TileLoader.cpp
+#        )
+#
+#add_subdirectory(libs/curlpp)
+#include_directories(${curlpp_INCLUDE_DIR})
+#include_directories(libs/curlpp/include)
+#target_link_libraries(get_img curlpp)

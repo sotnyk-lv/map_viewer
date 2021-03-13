@@ -9,7 +9,7 @@
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
 
-#define TOKEN_PATH "userinfo/mapbox"
+#define TOKEN_PATH "./userinfo/mapbox"
 
 class TileLoader {
 public:
