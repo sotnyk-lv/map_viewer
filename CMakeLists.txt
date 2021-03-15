@@ -9,6 +9,7 @@ add_executable(map_viewer
         main.cpp
         src/Window.cpp
         src/TileLoader.cpp
+        src/Shader.cpp
         )
 
 add_subdirectory(libs/glad)

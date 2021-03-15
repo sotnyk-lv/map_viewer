@@ -91,7 +91,7 @@ void Window::TextureSetup() {
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // load image, create texture and generate mipmaps
     int width, height, nrChannels;
-    // The FileSystem::getPath(...) is part of the GitHub repository so we can find files on any IDE/platform; replace it with your own image path.
+
     unsigned char *data = stbi_load(std::string("img/0-0-0.png").c_str(), &width, &height, &nrChannels, 0);
     if (data)
     {
